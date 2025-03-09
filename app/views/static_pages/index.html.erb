@@ -1,0 +1,4 @@
+<h1>Stuff</h1>
+<% @gifs.each do |gif| %>
+    <%= image_tag gif.original_image.url.to_s %>
+<% end %>
