@@ -10,4 +10,4 @@ Note: The project page says to use Flickr, but they have since moved to a paid A
 
 ## Post-project Review
 
-I ended up doing my own thing since Flickr requires a pro account to access their API. The Giphy API is used in one of the JavaScript path lessons, so I decided to basically set up the same thing in Rails.
+I ended up doing my own thing since Flickr requires a pro account to access their API. The Giphy API is used in one of the JavaScript path lessons, so I decided to basically set up the same thing in Rails.# project-flickr-api
