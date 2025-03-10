@@ -1,4 +1,11 @@
-<h1>Stuff</h1>
-<% @gifs.each do |gif| %>
-    <%= image_tag gif.original_image.url.to_s %>
+<h1>Gif Search</h1>
+<%= form_with method: :get do |f| %>
+    <%= f.label :search %>
+    <%= f.search_field :search, value: params[:search] %>
+    <%= f.submit :search %>
+<% end %>
+<% if @gifs.any? %>
+    <% @gifs.each do |gif| %>
+        <%= image_tag gif.original_image.url.to_s %>
+    <% end %>
 <% end %>

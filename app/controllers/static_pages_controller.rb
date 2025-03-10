@@ -1,5 +1,5 @@
 class StaticPagesController < ApplicationController
   def index
-    @gifs = Giphy.search('cats', { limit: 10 })
+    @gifs = Giphy.search(params[:search], { limit: 10 })
   end
 end
