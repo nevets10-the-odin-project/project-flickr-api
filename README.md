@@ -1,4 +1,4 @@
-# Project: Giphy API
+# Project: ~Flickr~ Giphy API
 
 https://www.theodinproject.com/lessons/ruby-on-rails-flickr-api
 
